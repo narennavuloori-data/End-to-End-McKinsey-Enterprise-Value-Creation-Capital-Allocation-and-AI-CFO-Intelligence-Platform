@@ -1,0 +1,6 @@
+business_unit_id,business_unit_name,sector,strategic_role,capital_intensity,description,active_flag
+BU01,Digital & AI Services,Technology,Growth,Medium,"Enterprise AI, analytics, cloud engineering and managed digital services.",1
+BU02,Consumer Brands,Consumer,Core,Medium,"Branded household, personal-care and packaged consumer products.",1
+BU03,HealthTech Solutions,Healthcare,Growth,Medium-High,"Diagnostic equipment, connected-care systems and clinical software.",1
+BU04,Industrial Systems,Industrials,Turnaround,High,"Industrial machinery, process-control equipment and aftermarket services.",1
+BU05,FinTech Platforms,Financial Technology,Growth,Low-Medium,"Payment orchestration, merchant software and financial data platforms.",1
