@@ -1,0 +1,16 @@
+business_unit_id,business_unit_name,metric,moving_average_mape,exponential_smoothing_mape,selected_model,selected_mape,forecast_accuracy,accuracy_status
+BU01,Digital & AI Services,revenue,16.59,1.6,Exponential Smoothing,1.6,98.4,Strong
+BU01,Digital & AI Services,ebitda,16.27,1.87,Exponential Smoothing,1.87,98.13,Strong
+BU01,Digital & AI Services,fcf,35.01,20.45,Exponential Smoothing,20.45,79.55,Weak
+BU02,Consumer Brands,revenue,10.61,4.57,Exponential Smoothing,4.57,95.43,Strong
+BU02,Consumer Brands,ebitda,15.83,18.24,Moving Average,15.83,84.17,Watch
+BU02,Consumer Brands,fcf,156.9,39.38,Exponential Smoothing,39.38,60.62,Weak
+BU03,HealthTech Solutions,revenue,5.5,0.86,Exponential Smoothing,0.86,99.14,Strong
+BU03,HealthTech Solutions,ebitda,4.88,1.23,Exponential Smoothing,1.23,98.77,Strong
+BU03,HealthTech Solutions,fcf,19.75,18.07,Exponential Smoothing,18.07,81.93,Watch
+BU04,Industrial Systems,revenue,4.88,7.55,Moving Average,4.88,95.12,Strong
+BU04,Industrial Systems,ebitda,10.07,12.44,Moving Average,10.07,89.93,Watch
+BU04,Industrial Systems,fcf,223.81,93.07,Exponential Smoothing,93.07,6.93,Weak
+BU05,FinTech Platforms,revenue,17.12,2.56,Exponential Smoothing,2.56,97.44,Strong
+BU05,FinTech Platforms,ebitda,17.66,1.94,Exponential Smoothing,1.94,98.06,Strong
+BU05,FinTech Platforms,fcf,87.28,98.51,Moving Average,87.28,12.72,Weak

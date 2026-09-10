@@ -1,0 +1,44 @@
+McKinsey CFO Intelligence - Data Validation Report
+====================================================
+[PASS] business_units rows: 5 / expected 5
+[PASS] business_units duplicates: 0 / expected 0
+[PASS] business_units missing: 0 / expected 0
+[PASS] financial_performance rows: 1206 / expected 1206
+[PASS] financial_performance duplicates: 6 / expected 6
+[PASS] financial_performance missing: 10 / expected 10
+[PASS] balance_sheet rows: 1204 / expected 1204
+[PASS] balance_sheet duplicates: 4 / expected 4
+[PASS] balance_sheet missing: 8 / expected 8
+[PASS] budget_forecast rows: 723 / expected 723
+[PASS] budget_forecast duplicates: 3 / expected 3
+[PASS] budget_forecast missing: 6 / expected 6
+[PASS] capital_projects rows: 40 / expected 40
+[PASS] capital_projects duplicates: 0 / expected 0
+[PASS] capital_projects missing: 0 / expected 0
+[PASS] market_assumptions rows: 20 / expected 20
+[PASS] market_assumptions duplicates: 0 / expected 0
+[PASS] market_assumptions missing: 0 / expected 0
+[PASS] financial_performance business units: invalid rows 0
+[PASS] financial_performance regions: invalid rows 0
+[PASS] balance_sheet business units: invalid rows 0
+[PASS] balance_sheet regions: invalid rows 0
+[PASS] budget_forecast business units: invalid rows 0
+[PASS] budget_forecast regions: invalid rows 0
+[PASS] capital_projects business units: invalid rows 0
+[PASS] capital_projects regions: invalid rows 0
+[PASS] financial_performance currency: values ['USD']
+[PASS] financial_performance dates: invalid dates 0
+    Date range: 2021-01-31 to 2025-12-31
+[PASS] balance_sheet currency: values ['USD']
+[PASS] balance_sheet dates: invalid dates 0
+    Date range: 2021-01-31 to 2025-12-31
+[PASS] budget_forecast currency: values ['USD']
+[PASS] budget_forecast dates: invalid dates 0
+    Date range: 2024-01-31 to 2026-12-31
+[PASS] positive revenue: checking complete rows
+[PASS] positive EBITDA: checking complete rows
+[PASS] tax rates: expected 0 to 1
+[PASS] financial vs balance grain: financial 1200, balance 1200
+[PASS] budget FCF: maximum difference 0.0050
+[PASS] WACC > terminal growth: checking all scenario rows
+[PASS] capital constraint: requested $2,676.00M, available $1,650.00M
