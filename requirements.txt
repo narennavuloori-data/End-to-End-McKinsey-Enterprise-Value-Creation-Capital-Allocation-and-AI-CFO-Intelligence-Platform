@@ -1,0 +1,6 @@
+pandas>=2.2.0,<3.0
+numpy>=1.26.0,<3.0
+SQLAlchemy>=2.0.0,<3.0
+pyodbc>=5.1.0,<6.0
+statsmodels>=0.14.0,<1.0
+numpy-financial>=1.0.0,<2.0
